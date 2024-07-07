@@ -1,0 +1,73 @@
+# Ubuntu Development Sprinter
+
+Ubuntu Development Sprinter is a collection of centralized bash scripts designed to automate the setup of a development environment on Ubuntu. This tool is tailored for Ruby on Rails developers but is versatile enough to be useful for any developer needing a robust and efficient setup.
+
+## Features
+
+- Installs essential applications for Ruby on Rails development
+- Sets up the tiling window manager (i3)
+- Installs Google Chrome
+- Installs Docker
+- Installs CascadiaMono fonts
+- Sets up the Kitty terminal emulator
+- Installs and configures Neovim with LazyVim
+- Installs and configures LazyGit and LazyDocker
+- Installs GitHub CLI
+- Sets up Fastfetch for system info
+- Configures Tmux for terminal multiplexing
+- Sets up Zsh and Oh-My-Zsh
+- Configures Mise as a development environment setup tool for Node and Ruby
+
+## Installation
+
+### Prerequisites
+
+Before running the scripts, make sure you have the following prerequisites:
+
+- Ubuntu installed on your machine
+- Basic knowledge of terminal commands
+- Sudo privileges
+
+### Getting Started
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone https://github.com/yourusername/ubuntu-development-sprinter.git
+    cd ubuntu-development-sprinter
+    ```
+
+2. **Make the scripts executable:**
+
+    ```sh
+    chmod +x *.sh
+    ```
+
+3. **Run the setup script:**
+
+    ```sh
+    ./boot.sh
+    ```
+
+## Usage
+
+After running the setup script, your development environment will be ready to use with all the necessary tools and configurations.
+
+Add the following lines manually to your `.zshrc` file to set up the paths for Ruby and Node:
+
+```sh
+export PATH=$HOME/.local/share/mise/installs/ruby/3.3.3/bin:$PATH 
+export PATH=$HOME/.local/share/mise/installs/node/20.15.0/bin:$PATH
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+Thanks to the contributors of the various tools and libraries used in this setup.
