@@ -53,6 +53,18 @@ Before running the scripts, make sure you have the following prerequisites:
 
 After running the setup script, your development environment will be ready to use with all the necessary tools and configurations.
 
+To install ruby with mise:
+```sh
+mise use --global ruby@3.3
+mise x ruby -- gem install rails --no-document
+```
+
+To install node with mise:
+```sh
+mise use --global node@lts
+```
+
+
 Add the following lines manually to your `.zshrc` file to set up the paths for Ruby and Node:
 
 ```sh
