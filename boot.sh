@@ -28,4 +28,4 @@ gsettings set org.gnome.desktop.screensaver lock-enabled true
 gsettings set org.gnome.desktop.session idle-delay 300
 
 # Logout to pickup changes
-# gnome-session-quit --logout --no-prompt
+gnome-session-quit --logout --no-prompt
