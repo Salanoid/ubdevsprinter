@@ -1,6 +1,6 @@
 # Ubuntu Development Sprinter
 
-Ubuntu Development Sprinter is a collection of centralized bash scripts designed to automate the setup of a development environment on Ubuntu. This tool is tailored for Ruby on Rails developers but is versatile enough to be useful for any developer needing a robust and efficient setup.
+Ubuntu Development Sprinter is a collection of centralized bash scripts designed to automate the setup of a development environment on Ubuntu and different flavours. This tool is tailored for Ruby on Rails developers but is versatile enough to be useful for any developer needing a robust and efficient setup.
 
 ## Features
 
