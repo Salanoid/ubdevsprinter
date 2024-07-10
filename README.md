@@ -64,14 +64,6 @@ To install node with mise:
 mise use --global node@lts
 ```
 
-
-Add the following lines manually to your `.zshrc` file to set up the paths for Ruby and Node:
-
-```sh
-export PATH=$HOME/.local/share/mise/installs/ruby/3.3.3/bin:$PATH 
-export PATH=$HOME/.local/share/mise/installs/node/20.15.0/bin:$PATH
-```
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
