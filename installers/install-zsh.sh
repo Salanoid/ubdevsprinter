@@ -3,5 +3,5 @@ sudo apt install zsh
 chsh -s $(which zsh)
 sudo apt install git-core curl fonts-powerline
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-echo 'eval "$(~/.local/bin/mise activate zsh)"' >> ~/.zshrc
+echo 'eval "$(/usr/bin/mise activate zsh)"' >> ~/.zshrc
 source ~/.zshrc
