@@ -1,5 +1,7 @@
 # Ubuntu Development Sprinter
 
+This tool is inspired by and is an alternative to omakub.
+
 Ubuntu Development Sprinter is a collection of centralized bash scripts designed to automate the setup of a development environment on Ubuntu and different flavours. This tool is tailored for Ruby on Rails developers but is versatile enough to be useful for any developer needing a robust and efficient setup.
 
 ## Features
