@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # Needed for all installers
 sudo apt update -y
 sudo apt upgrade -y
@@ -19,7 +20,6 @@ gsettings set org.gnome.desktop.session idle-delay 0
 
 # Run desktop installers
 for installer in $PWD/installers/*.sh; do
-  echo $installer
   source $installer
 done
 
