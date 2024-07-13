@@ -23,7 +23,7 @@ for installer in $PWD/installers/*.sh; do
   source $installer
 done
 
-sudo apt update
+sudo apt update -y
 
 # Revert to normal idle and lock settings
 gsettings set org.gnome.desktop.screensaver lock-enabled true

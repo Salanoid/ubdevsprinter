@@ -6,6 +6,7 @@ echo "deb http://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' /etc/lsb-relea
 sudo apt update
 sudo apt install i3
 sudo rm -rf keyring.deb
-sudo apt-get install feh
+sudo apt-get install -y feh
+sudo apt-get install -y pavucontrol
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E3CA1A89941C42E6
 wget -qO - https://debian.sur5r.net/i3/keyfile | sudo apt-key add -

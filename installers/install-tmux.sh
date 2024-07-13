@@ -1,3 +1,3 @@
-sudo apt-get install tmux
+sudo apt-get install -y tmux
 
 cp ./config/.tmux.conf ~
