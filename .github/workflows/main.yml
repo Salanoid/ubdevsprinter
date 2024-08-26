@@ -1,2 +1,0 @@
-name: Run ShellCheck
-uses: bewuethr/shellcheck-action@v2
