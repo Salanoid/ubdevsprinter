@@ -15,7 +15,7 @@ sudo apt install automake
 sudo apt install g++
 sudo apt install pkg-config
 sudo apt install curl
-sudo apt install do
+sudo apt install xclip
 
 git clone https://github.com/neovim/neovim
 cd neovim
