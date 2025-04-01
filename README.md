@@ -48,7 +48,7 @@ Before running the scripts, make sure you have the following prerequisites:
 3. **Run the setup script:**
 
     ```sh
-    ./boot.sh
+    ./boot.sh -y
     ```
 
 ## Usage
