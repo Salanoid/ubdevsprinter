@@ -55,6 +55,8 @@ Before running the scripts, make sure you have the following prerequisites:
 
 After running the setup script, your development environment will be ready to use with all the necessary tools and configurations.
 
+[Here](https://dev.to/salanoid/the-evolution-of-ruby-version-management-5f1d) you can find an article about ruby version management and a short tutorial about mise.
+
 To install ruby with mise:
 ```sh
 mise use --global ruby@3.3
